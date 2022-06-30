@@ -1,0 +1,191 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Signika Negative', sans-serif;
+
+}
+
+/* ROOT */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:active:focus:not(:disabled):not(.disabled),
+.btn:focus,
+.btn:active,
+.btn:hover {
+    box-shadow: none !important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+.form-control {
+
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+
+}
+
+.form-select {
+
+    border-top-right-radius: 6px !important;
+    border-bottom-right-radius: 6px !important;
+
+}
+
+.form-control:hover,
+.form-control:focus,
+.form-control:active,
+.form-control:active:focus:not(:disabled):not(.disabled),
+.form-control:focus,
+.form-control:active,
+.form-control:hover {
+    box-shadow: none !important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+.form-select:hover,
+.form-select:focus,
+.form-select:active,
+.form-select:active:focus:not(:disabled):not(.disabled),
+.form-select:focus,
+.form-select:active,
+.form-select:hover {
+    box-shadow: none !important;
+    outline: 0;
+    fill: #6A54F7;
+}
+
+.input-group-text {
+
+    background: transparent;
+
+}
+
+.form-label {
+
+    font-weight: bold;
+
+}
+
+.invalid-feedback {
+
+    text-align: center;
+
+}
+
+.invalid-feedback {
+
+    font-weight: bold;
+
+}
+
+.text-justify {
+
+    text-align: justify;
+
+}
+
+.bg-new-member {
+
+    background-image: url('../img/background.png');
+    background-position: center;
+    background-repeat: inherit;
+}
+
+.row-custom {
+
+    margin-top: 5%;
+
+}
+
+.btn-save {
+
+    background-color: rgb(61, 64, 243);
+    color: aliceblue;
+
+}
+
+.btn-save:hover {
+
+    background-color: rgb(61, 64, 243);
+    color: aliceblue;
+
+}
+
+.btn-save:focus {
+
+    background-color: rgb(61, 64, 243);
+    color: aliceblue;
+
+}
+
+.btn-save:disabled {
+
+    background-color: rgb(61, 64, 243);
+    color: aliceblue;
+
+}
+
+.row-auth {
+
+    margin-top: 12%;
+
+}
+
+.row-dashboard {
+
+    margin-top: 6%;
+
+}
+
+.mt-countdown {
+
+    margin-top: 5%;
+
+}
+
+.countdown-992-px {
+
+    display: none;
+
+}
+
+.text-maintenance {
+
+    margin-top: 30%;
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .mt-countdown {
+
+        margin-top: 40%;
+
+    }
+
+    .count-down-main {
+
+        display: none;
+
+    }
+    
+    .countdown-992-px {
+
+        display: block;
+
+    }
+
+}
+
+@media only screen and (max-width: 468px) {
+
+    .text-maintenance {
+
+        margin-top: 65%;
+
+    }
+
+}
